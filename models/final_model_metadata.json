@@ -1,0 +1,21 @@
+{
+    "best_model": "Ridge Regression",
+    "best_params": {
+        "alpha": 1.0
+    },
+    "training_date": "2025-09-08 08:46:48",
+    "features": [
+        "year",
+        "month",
+        "day_of_year",
+        "LandMaxTemperature",
+        "LandMinTemperature",
+        "LandAndOceanAverageTemperatureUncertainty"
+    ],
+    "target": "LandAverageTemperature",
+    "performance": {
+        "MAE": 0.14095845522658612,
+        "RMSE": 0.26694193426853563,
+        "R2": 0.9961159220969196
+    }
+}
